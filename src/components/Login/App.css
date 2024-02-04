@@ -4,22 +4,16 @@ html {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-#root:has(.dashboard-14){
+#root:has(.vector){
   nav {
     display: none !important;
   }
 }
 
-.App {
-  align-items: center;
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  width: 100vw;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+/* body {
+  background-image: url('../../images/profile.png');
+} */
+
 .App_test {
   display: flex;
   flex-direction: row-reverse;

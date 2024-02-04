@@ -1,0 +1,278 @@
+.consumption-per-day,
+.consumption-per-day * {
+  box-sizing: border-box;
+}
+.consumption-per-day {
+  background: #ffffff;
+  border-radius: 20px;
+  height: 414px;
+  position: relative;
+  overflow: hidden;
+}
+.title {
+  color: #1b2559;
+  text-align: left;
+  font-family: "DmSans-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 100%;
+  font-weight: 700;
+  position: absolute;
+  left: 31px;
+  top: 9px;
+}
+.vector-15 {
+  height: 87.8px;
+  position: absolute;
+  right: 3.94%;
+  left: 5.63%;
+  width: 90.42%;
+  bottom: 104.24px;
+  overflow: visible;
+}
+.vector-16 {
+  height: 76.94px;
+  position: absolute;
+  right: 5.49%;
+  left: 4.28%;
+  width: 90.22%;
+  bottom: 104.47px;
+  transform: translate(0.04px, -28.16px);
+  overflow: visible;
+}
+.vector-17 {
+  height: 76.94px;
+  position: absolute;
+  right: 5.49%;
+  left: 4.28%;
+  width: 90.22%;
+  bottom: 104.47px;
+  transform: translate(0.04px, -28.16px);
+  overflow: visible;
+}
+.vector-152 {
+  height: 53.32px;
+  position: absolute;
+  right: 3.79%;
+  left: 4.01%;
+  width: 92.2%;
+  bottom: 205.76px;
+  transform: translate(-27.56px, 32.55px);
+  overflow: visible;
+}
+.recieved {
+  position: absolute;
+  inset: 0;
+}
+.rewards-redeemed {
+  color: #a3aed0;
+  text-align: left;
+  font-family: "DmSans-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  position: absolute;
+  right: 641px;
+  bottom: 327px;
+  width: 113px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ellipse-61 {
+  background: #eff4fb;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  right: 759px;
+  bottom: 328px;
+}
+.points-earned {
+  color: #a3aed0;
+  text-align: left;
+  font-family: "DmSans-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  position: absolute;
+  right: 749px;
+  bottom: 328px;
+  width: 113px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ellipse-612 {
+  background: #6ad2ff;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  right: 867px;
+  bottom: 329px;
+}
+.frame-37 {
+  height: 22px;
+  position: absolute;
+  right: -15.16%;
+  left: 1.65%;
+  width: 113.52%;
+  bottom: 21px;
+}
+.jan-24 {
+  color: #a3aed0;
+  text-align: center;
+  font-family: "DmSans-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  position: absolute;
+  right: 92.13%;
+  left: 0%;
+  width: 7.87%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.feb-24 {
+  color: #a3aed0;
+  text-align: center;
+  font-family: "DmSans-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  position: absolute;
+  right: 77.8%;
+  left: 14.33%;
+  width: 7.87%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.mar-24 {
+  color: #a3aed0;
+  text-align: center;
+  font-family: "DmSans-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  position: absolute;
+  right: 63.46%;
+  left: 28.66%;
+  width: 7.87%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.apr-24 {
+  color: #a3aed0;
+  text-align: center;
+  font-family: "DmSans-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  position: absolute;
+  right: 49.13%;
+  left: 42.99%;
+  width: 7.87%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.may-24 {
+  color: #a3aed0;
+  text-align: center;
+  font-family: "DmSans-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  position: absolute;
+  right: 34.8%;
+  left: 57.32%;
+  width: 7.87%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.jun-24 {
+  color: #a3aed0;
+  text-align: center;
+  font-family: "DmSans-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  position: absolute;
+  right: 20.47%;
+  left: 71.65%;
+  width: 7.87%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.sent {
+  position: absolute;
+  inset: 0;
+}
+.participation-rate {
+  color: #a3aed0;
+  text-align: left;
+  font-family: "DmSans-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 296px;
+  bottom: 326px;
+  width: 141px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ellipse-613 {
+  background: #4318ff;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: 283px;
+  bottom: 327px;
+}
+.group-142 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-23 {
+  border-radius: 0px;
+  width: 95px;
+  height: 31px;
+  position: absolute;
+  left: 781px;
+  top: 36px;
+  overflow: visible;
+}
+.monthly {
+  color: #000000;
+  text-align: left;
+  font-family: "DmSans-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 789px;
+  top: 41px;
+  width: 60px;
+  height: 20px;
+}
+.down-arrow-6 {
+  width: 23.53px;
+  height: 23.8px;
+  position: absolute;
+  left: 844px;
+  top: 40.66px;
+  transform-origin: 0 0;
+  transform: rotate(-1.613deg) scale(1, 1);
+  object-fit: cover;
+}

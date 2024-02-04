@@ -1,0 +1,11 @@
+.vector,
+.vector * {
+  box-sizing: border-box;
+}
+.vector {
+  border-radius: 0px;
+  height: 100%;
+  position: relative;
+  overflow: visible;
+  width: 100%
+}

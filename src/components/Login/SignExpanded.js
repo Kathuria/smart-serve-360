@@ -29,25 +29,21 @@ class SignExpanded extends Component {
 	}
 
 	setUserName = (val) => {
-		console.log(val.target.value, 'uname')
 		this.setState({userName: val.target.value});
 	}
 
 	setPassword = (val) => {
-		console.log(val.target.value, 'pwdf')
 		this.setState({password: val.target.value});
 	}
 
 	validate () {
-		window.open("./landing", "_self");
-		// const isValidUser = Object.keys(loginData.find(data => data.userName === this.userName && data.password === this.password)).length > 1
-		// console.log(isValidUser, 'isValid')
-		// if(isValidUser) {
-		// 	console.log(isValidUser, 'isValid')
-		// 	//window.open("./landing");
-		// } else {
-		// 	this.setState({error: 'Wrong UserName or Password'});
-		// }
+		//TODO - Remove before final submission
+		//const isValidUser = Object.keys(loginData.find(data => data.userName === this.userName && data.password === this.password)).length > 1;
+		//if(isValidUser) {
+			window.open("./landing", "_self");
+		//} else {
+			//this.setState({error: 'Wrong UserName or Password'});
+		//}
 }
 
 	render () {

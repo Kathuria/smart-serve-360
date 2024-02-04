@@ -10,7 +10,7 @@ export const homeObjOne = {
       'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
     buttonLabel: 'Get Started',
     imgStart: '',
-    img: require('../../images/svg-1.svg'),
+    img: require('../../images/cover.png'),
     alt: 'Credit Card',
     start: ''
   };
@@ -45,7 +45,7 @@ export const homeObjOne = {
       "Their team is wonderful! I can't believe I didn't start working with them earlier.",
     buttonLabel: 'View Case Study',
     imgStart: 'start',
-    img: require('../../images/profile.jpg'),
+    img: require('../../images/profile.png'),
     alt: 'Vault',
     start: 'true'
   };
