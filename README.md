@@ -22,20 +22,6 @@ Publicis Sapient Hackathon Participation Solution in **Improving Customer Experi
 
 - Includes a clear plan to target an existing or new client that your solution can be proposed to.
 
-## Description 
-
-This is a static landing page ususally used for marketting of products. You can navigate to different pages possible due to react-router. I always wanted to learn styled-components and building a project is a practical way to learn it.
-The only challenge I faced is using styled-components, it was intimidating at first and since I used regular CSS and SASS it was weird without any classnames. Atleast styled-components are similar to SASS in terms of nesting. I also need to get used to the different folder structure you make while using styled-components. Anyways I refered to this doc - [styled component doc](https://styled-components.com/).
-
-
-[Click here to see the live demo](https://main.d21cg5dousodsi.amplifyapp.com/)
-
-## Tech Stack
-* React
-* Styled Components
-* React Router
-* React Hooks
-
 ## Screenshot
 <img src="./Screen.png" alt="the screenshot of the app large screen"/>
 
