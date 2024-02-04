@@ -1,5 +1,5 @@
 # Smart Serve 360
-<img src="./brand-image.png" alt="Logo" width="100px" height="100px"/>
+<img src="../brand-image.png" alt="Logo" width="100px" height="100px"/>
 
 ## Description 
 
