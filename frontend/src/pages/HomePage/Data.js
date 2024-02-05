@@ -27,7 +27,7 @@ export const homeObjOne = {
       "Once you've joined, our team of specialist will reach out to you and get you set up in minutes.",
     buttonLabel: 'Learn More',
     imgStart: '',
-    img: require('../../images/svg-2.svg'),
+    img: require('../../images/brand-image.png'),
     alt: 'Vault',
     start: ''
   };
@@ -62,7 +62,7 @@ export const homeObjOne = {
       'You will never have to worry about your information getting leaked. Our team of security experts will ensure your records are kept safe.',
     buttonLabel: 'Sign Up Now',
     imgStart: 'start',
-    img: require('../../images/svg-3.svg'),
+    img: require('../../images/logo.png'),
     alt: 'Vault',
     start: 'true'
   };

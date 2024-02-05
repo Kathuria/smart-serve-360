@@ -1,11 +1,21 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./Landing.css";
 import { RiLogoutBoxLine } from "react-icons/ri";
+import { CgInsights } from "react-icons/cg";
+import { AiOutlineStock } from "react-icons/ai";
+import {Loader} from '../../components/Loader';
 
 export const Landing = ({ className, ...props }) => {
+  const [visible, visbility] = useState(true);
+  setTimeout(() => visbility(false), 1000)
   return (
     <>
+    <Loader visible={visible}/>
     <div style={{"float": "right"}}>
+      <AiOutlineStock onClick={() => window.open("./trends", "_self")} size={40}/>
+      <span style={{padding: "0 12px"}}/>
+      <CgInsights onClick={() => window.open("./insights", "_self")} size={40}/>
+      <span style={{padding: "0 12px"}}/>
       <RiLogoutBoxLine onClick={() => window.open("./", "_self")} size={40}/>
     </div>
     <svg

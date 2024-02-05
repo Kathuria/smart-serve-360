@@ -4,15 +4,23 @@ html {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-#root:has(.vector){
+#root:has(.vector, .insights, .trends){
   nav {
     display: none !important;
   }
 }
 
-/* body {
-  background-image: url('../../images/profile.png');
-} */
+.trends{
+  margin: 40px;
+  padding-top: 60px;
+  padding-bottom: 200px;
+  background-image: url('../../images/bg.png');
+}
+
+.insights {
+  margin: 20px;
+  background-image: url('../../images/bg.png');
+}
 
 .App_test {
   display: flex;
@@ -62,7 +70,7 @@ html {
   padding-top: 15px;
 }
 .signIn {
-  background-color: rgba(151, 105, 245, 0.98);
+  background-color: rgba(75, 89, 247, 0.8);
   color: rgb(218, 231, 241);
   font-family: "Roboto Condensed", sans-serif;
   font-size: 20px;
@@ -81,7 +89,7 @@ html {
   cursor: pointer;
 }
 .signInCollapsed {
-  background-color: rgba(151, 105, 245, 0.98);
+  background-color: rgb(75, 89, 247);
   color: rgb(218, 231, 241);
   font-size: 20px;
   order: 1;
@@ -98,7 +106,7 @@ html {
   flex-grow: 1.4;
 }
 .signInExpanded {
-  background-color: rgba(151, 105, 245, 0.98);
+  background-color: rgba(75, 89, 247, 0.8);
   color: rgb(218, 231, 241);
   font-family: "Roboto Condensed", sans-serif;
   font-size: 20px;
